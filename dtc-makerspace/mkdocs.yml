@@ -1,0 +1,27 @@
+site_name: DTC Makerspace
+theme:
+  name: material
+  logo: assets/logos/primary.png
+  palette:
+    scheme: slate  # Use 'default' for light mode, 'slate' for dark mode
+    primary: 051d49  # Colors header, sidebar, links, etc.
+    accent: red   # Colors checkboxes, interactive buttons, etc.
+  features:
+    - navigation.footer
+
+extra_css:
+  - assets/css/extra.css
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2026 Digital Transformation Center Powered by UDRI
+
+
+nav:
+  - Capabilities:
+    - "3D Printing":
+      - "3D Printing Home": "capabilities/3d-printing/index.md"
+      - "Printers": 
+          - "Original Prusa MK4": "capabilities/3d-printing/printers/prusa-mk4/index.md"
+    - "Robotics": "capabilities/robotics/index.md"
