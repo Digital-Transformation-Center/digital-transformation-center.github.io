@@ -2,20 +2,58 @@ site_name: DTC Makerspace
 theme:
   name: material
   logo: assets/logos/primary.png
+  icon:
+    logo: assets/logos/icon.png
+    # logo: assets/logos/primary.png
+  favicon: assets/logos/icon.png
   palette:
     scheme: slate  # Use 'default' for light mode, 'slate' for dark mode
     primary: 051d49  # Colors header, sidebar, links, etc.
     accent: red   # Colors checkboxes, interactive buttons, etc.
   features:
     - navigation.footer
+    - navigation.sections 
 
 extra_css:
   - assets/css/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra:
   generator: false
 
 copyright: Copyright &copy; 2026 Digital Transformation Center Powered by UDRI
+
+plugins:
+  - tags
+  - search:
+      lang: en
+      separator: '[\s\-]+'
+  - exporter:
+      formats:
+        pdf:
+          enabled: true
+          concurrency: 8
 
 
 nav:
@@ -24,4 +62,10 @@ nav:
       - "3D Printing Home": "capabilities/3d-printing/index.md"
       - "Printers": 
           - "Original Prusa MK4": "capabilities/3d-printing/printers/prusa-mk4/index.md"
-    - "Robotics": "capabilities/robotics/index.md"
+    - "Robotics":
+      - "Robotics Home": "capabilities/robotics/index.md"
+      - "Robots":
+          - "Universal Robots UR5e": 
+            - "UR5e Home": "capabilities/robotics/robots/ur5e/index.md"
+            - "UR5e Standard Operating Procedure": "capabilities/robotics/robots/ur5e/sop.md"
+            - "UR5e Specifications": "capabilities/robotics/robots/ur5e/specs.md"
