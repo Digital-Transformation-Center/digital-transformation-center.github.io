@@ -23,7 +23,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs
-          pip install mkdocs-material 
+          pip install mkdocs-material
+          pip install mkdocs-exporter
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --config-file dtc-makerspace/mkdocs.yml --force
