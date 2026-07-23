@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../" rel="prev"/>
+<link href="../specs/" rel="next"/>
+<link href="../../../../../assets/logos/icon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.7.7" name="generator"/>
+<title>UR5e Standard Operating Procedure - DTC Makerspace</title>
+<link href="../../../../../assets/stylesheets/main.ec1eaa64.min.css" rel="stylesheet"/>
+<link href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../../../assets/css/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="red" data-md-color-primary="051d49" data-md-color-scheme="slate" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#pre-start-checklist">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="DTC Makerspace" class="md-header__button md-logo" data-md-component="logo" href="../../../../.." title="DTC Makerspace">
+<img alt="logo" src="../../../../../assets/logos/primary.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            DTC Makerspace
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              UR5e Standard Operating Procedure
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="DTC Makerspace" class="md-nav__button md-logo" data-md-component="logo" href="../../../../.." title="DTC Makerspace">
+<img alt="logo" src="../../../../../assets/logos/primary.png"/>
+</a>
+    DTC Makerspace
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+<span class="md-ellipsis">
+    
+  
+    Capabilities
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Capabilities
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    3D Printing
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_1_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_1_1">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    3D Printing
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../../3d-printing/">
+<span class="md-ellipsis">
+    
+  
+    3D Printing Home
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1_1_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_1_2" id="__nav_1_1_2_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Printers
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_1_1_2_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_1_1_2">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Printers
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../../3d-printing/printers/prusa-mk4/">
+<span class="md-ellipsis">
+    
+  
+    Original Prusa MK4
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_1_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Robotics
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_1_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_1_2">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Robotics
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../">
+<span class="md-ellipsis">
+    
+  
+    Robotics Home
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_1_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_2_2" id="__nav_1_2_2_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Robots
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_1_2_2_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_1_2_2">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Robots
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_1_2_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_2_2_1" id="__nav_1_2_2_1_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Universal Robots UR5e
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_1_2_2_1_label" class="md-nav" data-md-level="4">
+<label class="md-nav__title" for="__nav_1_2_2_1">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Universal Robots UR5e
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../">
+<span class="md-ellipsis">
+    
+  
+    UR5e Home
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    
+  
+    UR5e Standard Operating Procedure
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    
+  
+    UR5e Standard Operating Procedure
+  
+
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pre-start-checklist">
+<span class="md-ellipsis">
+      
+        Pre-Start Checklist
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#basic-controls">
+<span class="md-ellipsis">
+      
+        Basic Controls
+      
+    </span>
+</a>
+<nav aria-label="Basic Controls" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#manual-manipulation">
+<span class="md-ellipsis">
+      
+        Manual Manipulation
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#moving-with-the-pendant">
+<span class="md-ellipsis">
+      
+        Moving with the Pendant
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#programming">
+<span class="md-ellipsis">
+      
+        Programming
+      
+    </span>
+</a>
+<nav aria-label="Programming" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-visual-programming">
+<span class="md-ellipsis">
+      
+        1. Visual Programming
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-urscript">
+<span class="md-ellipsis">
+      
+        2. URScript
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3-urcaps">
+<span class="md-ellipsis">
+      
+        3. URCaps
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4-external-control">
+<span class="md-ellipsis">
+      
+        4. External Control
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-ros">
+<span class="md-ellipsis">
+      
+        5. ROS
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#robot-shutdown">
+<span class="md-ellipsis">
+      
+        Robot Shutdown
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#post-shutdown-checklist">
+<span class="md-ellipsis">
+      
+        Post-Shutdown Checklist
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../specs/">
+<span class="md-ellipsis">
+    
+  
+    UR5e Specifications
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pre-start-checklist">
+<span class="md-ellipsis">
+      
+        Pre-Start Checklist
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#basic-controls">
+<span class="md-ellipsis">
+      
+        Basic Controls
+      
+    </span>
+</a>
+<nav aria-label="Basic Controls" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#manual-manipulation">
+<span class="md-ellipsis">
+      
+        Manual Manipulation
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#moving-with-the-pendant">
+<span class="md-ellipsis">
+      
+        Moving with the Pendant
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#programming">
+<span class="md-ellipsis">
+      
+        Programming
+      
+    </span>
+</a>
+<nav aria-label="Programming" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-visual-programming">
+<span class="md-ellipsis">
+      
+        1. Visual Programming
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-urscript">
+<span class="md-ellipsis">
+      
+        2. URScript
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3-urcaps">
+<span class="md-ellipsis">
+      
+        3. URCaps
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4-external-control">
+<span class="md-ellipsis">
+      
+        4. External Control
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-ros">
+<span class="md-ellipsis">
+      
+        5. ROS
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#robot-shutdown">
+<span class="md-ellipsis">
+      
+        Robot Shutdown
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#post-shutdown-checklist">
+<span class="md-ellipsis">
+      
+        Post-Shutdown Checklist
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<nav class="md-tags">
+<span class="md-tag">Robot</span>
+<span class="md-tag">SOP</span>
+<span class="md-tag">UR5e</span>
+</nav>
+<h1>UR5e Standard Operating Procedure</h1>
+<h2 id="pre-start-checklist">Pre-Start Checklist</h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Completed hands-on operational training.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Cleared workspace and ensured UR5e is safe from colliding with surroudings.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Ensured tool installation is secure.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Detatched the teach pendant and moved away from the robot.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Deactivated emergency-stop switch.</li>
+</ul>
+<div id="prestart-checklist-anchor"></div>
+<div id="prestart-warning" style="display:none;color:#b00;background:#fee;padding:0.5rem;border-left:4px solid #b00;margin-bottom:1rem;">
+<strong>Warning:</strong> Do not start the robot before all pre-start checklist items are completed.
+</div>
+<script src="/assets/js/ur5e-sop.js"></script>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="highlight"><pre><span></span><code>Do not move the UR5e from its current location. Doing so risks damage to property.
+</code></pre></div>
+</div>
+<details class="info">
+<summary>Starting the Robot</summary>
+<p>Power on the UR5e by pressing and releasing the power button on the front of the teach pendant. The button should glow green and the system will boot to the home screen.</p>
+<p><img alt="alt text" class="center" src="../images/pendant_power_btn.png"/></p>
+<p>On the teach pendant, press the power control button in the bottom left, which should indicate that the robot is powered off. </p>
+<p><img alt="alt text" class="center" src="../images/ss_home.png"/></p>
+<p>Before powering on the robot, be sure the correct payload is selected. This selection affects how the robot counteracts the payload mass during operation. Once the payload is confirmed, press the <em>ON</em> button to power on the robot. </p>
+<p><img alt="alt text" class="center" src="../images/ss_initialization.png"/></p>
+<p>After the robot is powered on and initialized, ensure the workspace around it is clear from anything the robot might collide with. Then, press the <em>START</em> button. The brakes will audibly release, and the robot is ready for operation. After the robot starts, press the <em>Exit</em> button to return home. </p>
+<p><img alt="alt text" class="center" src="../images/ss_initialization_b.png"/></p>
+</details>
+<details class="info">
+<summary>Basic Controls</summary>
+<h2 id="basic-controls">Basic Controls</h2>
+<h3 id="manual-manipulation">Manual Manipulation</h3>
+<p>To manipulate the robot with your hands, hold the Freedrive button located on the back of the pendant. While this button is depressed, you can manually manipulate the robot's joints. Before entering Freedrive, be sure the active payload is accurate and is not holding any additional mass. Payload calibration is especially important when using Freedrive. </p>
+<p><img alt="alt text" src="../images/freedrive.png"/></p>
+<h3 id="moving-with-the-pendant">Moving with the Pendant</h3>
+<p>To move the robot using the pendant, navigate to the <em>Move</em> menu by clicking the Move icon in the top left of the screen. To move the tool head, use the arrow controls on the left-hand side of the control in terface. The clickable arrows correspond to one of three axes:</p>
+<ul>
+<li><strong>x-axis</strong>: indicated by a red arrow, controlled by forward/backward arrows. </li>
+<li><strong>y-axis</strong>: indicated by a green arrow, controlled by left/right arrows.</li>
+<li><strong>z-axis</strong>: indicated by a blue arrow, controlled by up/down arrows. </li>
+</ul>
+<p>The Feature by which control axes are oriented can be changed through the <em>Features</em> dropdown. For example, changing the <em>Feature</em> to <strong>Base</strong> will orient the control axes with respect to the base of the arm, often providing a more intuitive control frame of reference. </p>
+<p><img alt="alt text" src="../images/ss_move.png"/></p>
+</details>
+<details class="info">
+<summary>Programming</summary>
+<h2 id="programming">Programming</h2>
+<p>Universal Robots offers five ways to program the UR5e. When programming the UR5e, the <a href="https://www.universal-robots.com/developer/">UR Developer Page</a> is your friend. </p>
+<h3 id="1-visual-programming">1. Visual Programming</h3>
+<p>The easiest and most flexible way to program the UR5e is visual programming. This method is great for simple repetitive tasks. To use the visual programmer, navigate to the <em>Program</em> screen by selecting the <em>Program</em> button in the upper left-hand corner of the screen. This menu allows the user to select various program components to assemble simple actions. </p>
+<p><img alt="alt text" src="../images/ss_program.png"/></p>
+<h3 id="2-urscript">2. URScript</h3>
+<p>URScript acts as a robust programming language for controlling Universal Robot arms. Every visual program is translated to a URScript before being executed. This allows the user to add script to their program either on the teach pendant or from a computer. Learn more about using URScript to program this robot <a href="https://www.universal-robots.com/developer/urscript/">here</a>.</p>
+<h3 id="3-urcaps">3. URCaps</h3>
+<p>URCaps act as apps or plugins enabling developers to create their own URCap for others to use. URCaps can contain program nodes, installation settings, tool bars, and other custom user interface components. A URCap can encompass both visual components and robot control through URScript. Background processes can also be included in URCaps, typically used to communicate with external hardware and to interact with controls while the robot is working. </p>
+<p>Learn more about developing URCaps <a href="https://www.universal-robots.com/developer/ur-cap/develop-urcap/">here</a>.</p>
+<h3 id="4-external-control">4. External Control</h3>
+<p>While the previous methods are designed to run on the robot with no additional hardware, the robot also allows for external control. External control allows for things like monitoring and controling registers; loading, starting, and stopping programs; and externally controlling motion. </p>
+<p>Learn more about the external control URCap <a href="https://github.com/UniversalRobots/Universal_Robots_ExternalControl_URCap">here</a>.</p>
+<h3 id="5-ros">5. ROS</h3>
+<p>Robot Operating System (ROS) is a powerful, industry-standard tool for programming robots. It offers precise control and powerful building blocks for developing custom robot software. ROS is a special case of External Control, but gets its own category due to its wide use and support. Universal Robots provides a <a href="https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver">ROS 2 driver</a> which receives regular updates. </p>
+<p>Check out our example for running <a href="https://www.ros.org/">ROS2</a> and <a href="https://moveit.picknik.ai/">MoveIt 2</a> with the Universal Robots UR5e <a href="https://github.com/Digital-Transformation-Center/Capabilities/tree/main/tools/robotics/ur5e/examples/ros2_control">here</a>.</p>
+<p>External control of the UR5e with ROS requires an External Control program to be running on the robot. To create such a program, in the <em>Program</em> screen, select "External Control" from the <em>URCaps</em> dropdown. Then, press the play button in the bottom menu to execute the program. </p>
+<p><img alt="alt text" src="../images/ss_external_program.png"/></p>
+</details>
+<details class="info">
+<summary>Robot Shutdown</summary>
+<h2 id="robot-shutdown">Robot Shutdown</h2>
+<p>To shutdown the robot, select the hamburger menu in the top right corner of the screen, then select <em>Shutdown Robot</em>. Then, select <em>Power off</em>. You may be asked to save your configuration. Note that it is your responsibility to remove any saved sensitive data from the robot. </p>
+</details>
+<h2 id="post-shutdown-checklist">Post-Shutdown Checklist</h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> The robot is left in an appropriate resting position. The arm should be folded to be compact and not protruding into any common walkways. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> The pendant is hung in its proper position on the front of the control cabinet. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Any cords, such as power cords, ethernet cables, or the pendant connection should be wound and neatly stowed. </li>
+</ul>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: UR5e Home" class="md-footer__link md-footer__link--prev" href="../">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Previous
+              </span>
+<div class="md-ellipsis">
+                UR5e Home
+              </div>
+</div>
+</a>
+<a aria-label="Next: UR5e Specifications" class="md-footer__link md-footer__link--next" href="../specs/">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Next
+              </span>
+<div class="md-ellipsis">
+                UR5e Specifications
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2026 Digital Transformation Center Powered by UDRI
+    </div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.footer", "navigation.sections"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+</body>
+</html>
