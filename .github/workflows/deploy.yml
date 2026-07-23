@@ -1,6 +1,9 @@
 name: Deploy MkDocs to GitHub Pages
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -25,6 +28,7 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material
           pip install mkdocs-exporter
+          python -m playwright install --with-deps chromium
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --config-file dtc-makerspace/mkdocs.yml --force
