@@ -61,7 +61,9 @@ nav:
     - "3D Printing":
       - "3D Printing Home": "capabilities/3d-printing/index.md"
       - "Printers": 
-          - "Original Prusa MK4": "capabilities/3d-printing/printers/prusa-mk4/index.md"
+          - "Original Prusa MK4":
+            - "MK4 Home": "capabilities/3d-printing/printers/prusa-mk4/index.md"
+            - "MK4 Standard Operating Procedure": "capabilities/3d-printing/printers/prusa-mk4/sop.md"
     - "Robotics":
       - "Robotics Home": "capabilities/robotics/index.md"
       - "Robots":
