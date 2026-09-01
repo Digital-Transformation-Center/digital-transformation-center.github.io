@@ -7,3 +7,4 @@ This site is currently under development, so check back soon for updates.
 # Available Documentation
 
 - [Universal Robots UR5e](capabilities/robotics/robots/ur5e/index.md)
+- [Original Prusa MK4](capabilities/3d-printing/printers/prusa-mk4/index.md)
