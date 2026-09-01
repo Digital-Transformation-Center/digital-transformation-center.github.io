@@ -22,7 +22,7 @@ tags:
     - Select a filament profile that matches the filament loaded in the printer (the "Generic" profiles are usually fine for basic use).
     - If you're new to PrusaSlicer, see Prusa's guide: [First print with PrusaSlicer](https://help.prusa3d.com/article/first-print-with-prusaslicer_1753?product=prusaslicer)
 
-    ![PrusaSlicer printer selection](images/printer_selection.png){ .center }
+    ![PrusaSlicer printer selection](https://raw.githubusercontent.com/Digital-Transformation-Center/Capabilities/main/tools/3d_printers/prusa/mk4/images/printer_selection.png){ .center }
 
 ??? info "Starting a Print (USB)"
 
@@ -31,9 +31,9 @@ tags:
     - Copy your G-code file to a USB drive and insert it into the USB port on the side of the MK4's display.
     - Use the control knob (turn to move, press to select) to find your file and press Start.
 
-    ![Bed alignment pin](images/alignment_pin.png){ .center }
+    ![Bed alignment pin](https://raw.githubusercontent.com/Digital-Transformation-Center/Capabilities/main/tools/3d_printers/prusa/mk4/images/alignment_pin.png){ .center }
 
-    ![Screen](images/prusa_screen.jpeg){ .center }
+    ![Screen](https://raw.githubusercontent.com/Digital-Transformation-Center/Capabilities/main/tools/3d_printers/prusa/mk4/images/prusa_screen.jpeg){ .center }
 
 ??? info "After Your Print"
 
