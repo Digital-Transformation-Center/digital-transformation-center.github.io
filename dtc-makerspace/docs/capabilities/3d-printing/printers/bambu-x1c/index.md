@@ -3,10 +3,10 @@ tags:
     - 3D Printing
     - Bambu
     - X1C
-    - AMS
+    - AMS 2 Pro
 ---
 
-The Bambu Lab X1 Carbon (X1C) is an enclosed CoreXY FDM printer with an Automatic Material System (AMS) for multi-material and multi-color printing.
+The Bambu Lab X1 Carbon (X1C) is an enclosed CoreXY FDM printer with an AMS 2 Pro Automatic Material System for multi-material and multi-color printing. Filament drying on AMS 2 Pro is available when the official Bambu Lab Switching Adapter is connected and the printer firmware supports AMS 2 Pro drying.
 
 ![Bambu Lab X1 Carbon Combo](https://cdn.shopify.com/s/files/1/0574/3116/2995/files/X1CC_1.png?v=1678162138){ align=left width=30%}
 
@@ -20,14 +20,18 @@ The Bambu Lab X1 Carbon (X1C) is an enclosed CoreXY FDM printer with an Automati
 
 - [Introduction to the X1 Series](https://wiki.bambulab.com/en/x1/manual/intro-x1)
 - [X1 Series manuals](https://wiki.bambulab.com/en/x1)
-- [Connect AMS to X1C](https://wiki.bambulab.com/en/x1/manual/connect-ams)
-- [AMS setup and filament loading](https://wiki.bambulab.com/en/x1/manual/ams-setup-and-filament-loading)
+- [Install AMS 2 Pro on X1C](https://wiki.bambulab.com/en/x1/manual/installing-ams-2-pro-to-x1c)
+- [Use AMS 2 Pro drying from the X1C screen](https://wiki.bambulab.com/en/x1/manual/use-drying-feature-of-ams-2-pro-from-printer-screen)
+- [AMS 2 Pro intro and connection guide](https://wiki.bambulab.com/en/ams-2-pro/manual/intro-and-connection-guide)
+- [AMS 2 Pro drying function](https://wiki.bambulab.com/en/ams-2-pro/manual/drying-function)
+- [AMS 2 Pro drying on X1/P1 series](https://wiki.bambulab.com/en/ams-2-pro/ams-2-pro-for-drying-in-x1-p1-series)
+- [AMS 2 Pro basic maintenance](https://wiki.bambulab.com/en/ams-2-pro/maintenance/basic-maintenance)
+- [AMS 2 Pro product specs](https://us.store.bambulab.com/products/ams-2-pro)
+- [X1 firmware update for AMS 2 Pro / AMS HT](https://wiki.bambulab.com/en/x1/manual/X1-firmware-update-support-ams2pro-ams-ht)
 - [Wi-Fi / Network connection guide](https://wiki.bambulab.com/en/x1/manual/x1-network-connection-guide)
 - [Print from Bambu Studio](https://wiki.bambulab.com/en/x1/manual/print-from-bambu-studio)
 - [Bambu Studio download](https://bambulab.com/en/download/studio)
 - [X1-Carbon technical specifications (PDF)](https://public-cdn.bambulab.com/store/bambulab-X1-carbon-tech-specs.pdf)
-- [AMS Wiki](https://wiki.bambulab.com/en/ams)
-- [Notes for AMS](https://wiki.bambulab.com/en/knowledge-sharing/notes-AMS)
 
 ## Getting Started
 
