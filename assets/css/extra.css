@@ -1,0 +1,18 @@
+:root>* {
+    /* Primary brand color and variants */
+    --md-primary-fg-color: #051d49;
+    --md-primary-fg-color--light: #ac325a;
+    --md-primary-fg-color--dark: #5c112a;
+
+    --md-typeset-a-color: #30c1de;
+    --md-default-bg-color: #0e0f11;
+}
+
+/* a, button, input, label {
+    -webkit-tap-highlight-color: transparent;
+} */
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
