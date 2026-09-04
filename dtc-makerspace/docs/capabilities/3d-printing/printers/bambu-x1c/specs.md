@@ -3,13 +3,13 @@ tags:
     - 3D Printing
     - Bambu
     - X1C
-    - AMS
+    - AMS 2 Pro
     - Specs
 ---
 
 # X1 Carbon — Specifications
 
-Figures below are from Bambu Lab’s [X1-Carbon technical specifications PDF](https://public-cdn.bambulab.com/store/bambulab-X1-carbon-tech-specs.pdf) and the [X1 Series wiki](https://wiki.bambulab.com/en/x1). AMS figures are only those stated on official AMS wiki pages for the original 4-slot unit.
+Figures below are from Bambu Lab’s [X1-Carbon technical specifications PDF](https://public-cdn.bambulab.com/store/bambulab-X1-carbon-tech-specs.pdf) and the [X1 Series wiki](https://wiki.bambulab.com/en/x1). AMS 2 Pro figures are from the [AMS 2 Pro store specs](https://us.store.bambulab.com/products/ams-2-pro) and [AMS 2 Pro intro and connection guide](https://wiki.bambulab.com/en/ams-2-pro/manual/intro-and-connection-guide).
 
 ## Printer (X1 Carbon)
 
@@ -58,32 +58,48 @@ Figures below are from Bambu Lab’s [X1-Carbon technical specifications PDF](ht
 
 Chamber temperature on the X1C is **not** actively heated. It rises with the heatbed and is not precisely controlled ([FAQ](https://wiki.bambulab.com/en/x1/manual/faq)).
 
-## AMS (original 4-slot unit)
+## AMS 2 Pro
 
-This DTC page assumes the original AMS shipped with the X1C Combo — four slots feeding through the printer’s filament buffer. It is **not** AMS 2 Pro unless Ryan confirms otherwise.
+This DTC machine uses **AMS 2 Pro**. Specs below are from the [Bambu Lab AMS 2 Pro store page](https://us.store.bambulab.com/products/ams-2-pro) unless noted.
 
 | Item | Official value | Source |
 | --- | --- | --- |
-| Role | Automatic Material System: active feeding and mid-print filament switching | [Intro to AMS](https://wiki.bambulab.com/en/x1/manual/intro-ams), [Notes for AMS](https://wiki.bambulab.com/en/knowledge-sharing/notes-AMS) |
-| Slots per unit | 4, each with its own motor and filament sensor | [Intro to AMS](https://wiki.bambulab.com/en/x1/manual/intro-ams) |
-| Path | Four slots → filaments hub (second-stage drive) → filament buffer on the printer → toolhead extruder | [Intro to AMS](https://wiki.bambulab.com/en/x1/manual/intro-ams) |
-| Single-AMS connection | Filament buffer on the back of the X1C (PTFE + 4-pin printer cable + 6-pin AMS cable) | [Connect AMS](https://wiki.bambulab.com/en/x1/manual/connect-ams) |
-| Multi-AMS | Buffer is replaced by an AMS Hub for up to 4 AMS / 16 spools | [Intro to AMS](https://wiki.bambulab.com/en/x1/manual/intro-ams) |
-| RFID | Reads official Bambu spool tags and syncs type/color to the printer and Bambu Studio | [Intro to AMS](https://wiki.bambulab.com/en/x1/manual/intro-ams) |
-| Humidity | Humidity sensor, desiccant packets, and seals; keep AMS at 10–30 °C and < 85% RH | [Intro to AMS](https://wiki.bambulab.com/en/x1/manual/intro-ams) |
-| Supported spool size | Width 50–68 mm, diameter 197–202 mm | [Notes for AMS](https://wiki.bambulab.com/en/knowledge-sharing/notes-AMS) |
-| Do not use in AMS | TPU, TPE, absorbent PVA; third-party fiber-reinforced filaments | [Notes for AMS](https://wiki.bambulab.com/en/knowledge-sharing/notes-AMS) |
-| Official fiber filaments called out as AMS-compatible | Bambu PLA-CF, PETG-CF, PAHT-CF | [Notes for AMS](https://wiki.bambulab.com/en/knowledge-sharing/notes-AMS) |
-| Filament odometry | Listed on the X1C spec PDF as optional with AMS | [Spec PDF](https://public-cdn.bambulab.com/store/bambulab-X1-carbon-tech-specs.pdf) |
+| Body dimensions | 372 × 280 × 226 mm³ | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Net weight | 2.5 kg | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Housing material | ABS/PC | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Slots | 4, each with a feeder, motor, gears, and filament sensor; ceramic-reinforced anti-wear bushings at each feeder inlet | [Intro and connection guide](https://wiki.bambulab.com/en/ams-2-pro/manual/intro-and-connection-guide) |
+| Filament diameter | 1.75 mm | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Supported spool size | Width 50–68 mm, diameter 197–202 mm | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Filament supported | PLA, PETG, ABS, ASA, PET, PA, PC, PVA (dried), BVOH (dried), PP, POM, HIPS, Bambu PLA-CF / PAHT-CF / PETG-CF / Support for PLA/PETG, and TPU for AMS | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Filament not supported | TPE, generic TPU, PVA (damp), BVOH (damp), Bambu PET-CF / TPU 95A, and other filament that contains carbon fiber or glass fiber | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| RFID | Supported; official Bambu tags enable remaining-filament estimation and auto filament backup | [Store specs](https://us.store.bambulab.com/products/ams-2-pro), [intro and connection guide](https://wiki.bambulab.com/en/ams-2-pro/manual/intro-and-connection-guide) |
+| Drying modules | Two modules (heaters, fans, temperature sensors); highest temperature **65 °C** | [Store specs](https://us.store.bambulab.com/products/ams-2-pro), [intro and connection guide](https://wiki.bambulab.com/en/ams-2-pro/manual/intro-and-connection-guide) |
+| Active moisture discharge | Supported (actively controlled intake/exhaust vents) | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Sealed storage | Supported | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Temperature & humidity | Real-time display on the printer screen, Bambu Studio, and Bambu Handy | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| Power input (drying) | 24 V 4 A official Switching Adapter | [Store specs](https://us.store.bambulab.com/products/ams-2-pro) |
+| X1C drying power | X1C cannot power AMS 2 Pro drying. Each AMS 2 Pro used for drying needs its own official Switching Adapter. Power icon on Drying and Humidity should be green. | [X1C drying from screen](https://wiki.bambulab.com/en/x1/manual/use-drying-feature-of-ams-2-pro-from-printer-screen), [store FAQ](https://us.store.bambulab.com/products/ams-2-pro) |
+| X1C connection | Filament buffer + PTFE + 4-pin (printer to buffer) + 6-pin (AMS 2 Pro to buffer). Users should not rewire; contact Ryan if disconnected. | [Install AMS 2 Pro on X1C](https://wiki.bambulab.com/en/x1/manual/installing-ams-2-pro-to-x1c), [intro and connection guide](https://wiki.bambulab.com/en/ams-2-pro/manual/intro-and-connection-guide) |
+| Multi-AMS on X1 | Filament buffer is replaced by an AMS Hub; X1/P1 can connect up to 4 AMS units (AMS, AMS 2 Pro, AMS HT) | [Store](https://us.store.bambulab.com/products/ams-2-pro), [install wiki](https://wiki.bambulab.com/en/x1/manual/installing-ams-2-pro-to-x1c) |
+| Firmware | Drying on X1C requires firmware that supports AMS 2 Pro drying | [X1 firmware update](https://wiki.bambulab.com/en/x1/manual/X1-firmware-update-support-ams2pro-ams-ht) |
 
-TPU is listed as supported **on the X1C printer**, but Notes for AMS say not to run flexible filament through the AMS. Use the rear spool holder for those materials.
+Filaments the store marks with * for drying (ABS, ASA, PET, PA, PC, PVA, BVOH, POM, HIPS, Bambu PLA-CF / PAHT-CF / PETG-CF, TPU for AMS) need a higher drying temperature than AMS 2 Pro can fully provide. Bambu recommends AMS HT for better drying of those materials. Maximum 65 °C is only achievable when ambient temperature is above 25 °C.
+
+TPU is listed as supported **on the X1C printer**, but generic TPU is **not** supported in AMS 2 Pro. Use **TPU for AMS** in the unit, or the rear spool holder for generic TPU.
+
+Whether the shop Switching Adapter is currently plugged in is not recorded here. Drying requires the official adapter; if the power icon is not green, ask Ryan.
 
 ## Notes & references
 
 - [Bambu Lab X1-Carbon technical specifications (PDF)](https://public-cdn.bambulab.com/store/bambulab-X1-carbon-tech-specs.pdf)
 - [X1 Series wiki](https://wiki.bambulab.com/en/x1)
 - [Introduction to X1/X1C](https://wiki.bambulab.com/en/x1/manual/intro-x1)
-- [AMS wiki](https://wiki.bambulab.com/en/ams)
-- [Introduction to AMS](https://wiki.bambulab.com/en/x1/manual/intro-ams)
-- [Notes for AMS](https://wiki.bambulab.com/en/knowledge-sharing/notes-AMS)
+- [Install AMS 2 Pro on X1C](https://wiki.bambulab.com/en/x1/manual/installing-ams-2-pro-to-x1c)
+- [Use AMS 2 Pro drying from the X1C screen](https://wiki.bambulab.com/en/x1/manual/use-drying-feature-of-ams-2-pro-from-printer-screen)
+- [AMS 2 Pro intro and connection guide](https://wiki.bambulab.com/en/ams-2-pro/manual/intro-and-connection-guide)
+- [AMS 2 Pro drying function](https://wiki.bambulab.com/en/ams-2-pro/manual/drying-function)
+- [AMS 2 Pro drying on X1/P1 series](https://wiki.bambulab.com/en/ams-2-pro/ams-2-pro-for-drying-in-x1-p1-series)
+- [AMS 2 Pro basic maintenance](https://wiki.bambulab.com/en/ams-2-pro/maintenance/basic-maintenance)
+- [AMS 2 Pro product specs](https://us.store.bambulab.com/products/ams-2-pro)
+- [X1 firmware update for AMS 2 Pro / AMS HT](https://wiki.bambulab.com/en/x1/manual/X1-firmware-update-support-ams2pro-ams-ht)
 - [Bambu Studio download](https://bambulab.com/en/download/studio)
