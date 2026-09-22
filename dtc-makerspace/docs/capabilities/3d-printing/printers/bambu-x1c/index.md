@@ -14,7 +14,7 @@ The Bambu Lab X1 Carbon (X1C) is an enclosed CoreXY FDM printer with an AMS 2 Pr
 
 - [Bambu Lab X1 Series Wiki](https://wiki.bambulab.com/en/x1)
 - [Download Bambu Studio](https://bambulab.com/en/download/studio)
-- Contact [Ryan Kuederle](mailto:kuederler1@udayton.edu) for assistance or to report issues.
+- Contact [Ryan Kuederle](mailto:ryan.kuederle@udri.udayton.edu) for assistance or to report issues.
 
 ## References
 
@@ -35,8 +35,6 @@ The Bambu Lab X1 Carbon (X1C) is an enclosed CoreXY FDM printer with an AMS 2 Pr
 
 ## Getting Started
 
-If you have not used the Bambu Lab X1 Carbon before, or otherwise need help with 3D printing, contact [Ryan Kuederle](mailto:kuederler1@udayton.edu).
-
-Ask Ryan before joining a shop network. Do not connect the printer to a new Wi-Fi network without approval.
+If you have not used the Bambu Lab X1 Carbon before, or otherwise need help with 3D printing, contact [Ryan Kuederle](mailto:ryan.kuederle@udri.udayton.edu).
 
 After you are set up, follow the [X1C Standard Operating Procedure](sop.md) during regular use. Official machine figures are on [X1C Specifications](specs.md).

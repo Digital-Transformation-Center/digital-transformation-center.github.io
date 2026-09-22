@@ -43,7 +43,7 @@ tags:
 
 ??? info "Wireless Printing"
 
-    The MK4 supports Wi‑Fi printing, but wireless access is restricted. To request permission to print wirelessly, submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSckJDdSpQWUWbNIRqO0h6LokrG6Q7IQ2_-ZudXRN2CUwgkYFw).
+    The MK4 supports Wi‑Fi printing, but wireless access is restricted. To request permission to print wirelessly, submit this [Form](https://forms.osi.office365.us/Pages/ResponsePage.aspx?id=ornV8r1eukKGkKENa77QhaitGsMoaXhKjfcIL8FHNQRUMFZJSk9KUDUyTE1RU1ZGU0xXSTlRNTZKQi4u).
 
     - The form is required so we can verify user training and ensure proper filament/setup.
     - If approved, you'll receive instructions and the steps needed to upload prints over Wi‑Fi.

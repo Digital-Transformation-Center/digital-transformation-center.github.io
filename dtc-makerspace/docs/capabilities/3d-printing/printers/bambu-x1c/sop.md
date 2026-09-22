@@ -7,18 +7,17 @@ tags:
     - SOP
 ---
 
-This SOP covers the Bambu Lab X1 Carbon (X1C) with AMS 2 Pro. Steps come from the official Bambu Lab wiki and AMS 2 Pro store specs. If you have not used this printer before, contact [Ryan Kuederle](mailto:kuederler1@udayton.edu).
+This SOP covers the Bambu Lab X1 Carbon (X1C) with AMS 2 Pro. Steps come from the official Bambu Lab wiki and AMS 2 Pro store specs. If you have not used this printer before, contact [Ryan Kuederle](mailto:ryan.kuederle@udri.udayton.edu).
 
 ## Pre-Start Checklist
 
-- [ ] If this is your first time on this machine, you have contacted [Ryan Kuederle](mailto:kuederler1@udayton.edu).
+- [ ] If this is your first time on this machine, you have contacted [Ryan Kuederle](mailto:ryan.kuederle@udri.udayton.edu).
 - [ ] Long hair, loose clothing, and jewelry are kept away from the printer.
 - [ ] The magnetic build plate is seated on the heatbed, not crooked, and does not contact the excess chute, Z-slider stopper, or inner liner ([plate placement](https://wiki.bambulab.com/en/x1/troubleshooting/hmscode/0300_0D00_0001_0003)).
 - [ ] Filament in the AMS 2 Pro (or on the external spool holder) matches the filament type and color in the slice. Official Bambu spools are identified by RFID; third-party spools must be set on the screen or in Bambu Studio.
 - [ ] AMS 2 Pro slots you intend to use are loaded, and mapping will be confirmed before the job starts.
 - [ ] Front glass door position matches the filament: keep the door closed for ABS so the chamber stays stable; for PLA, TPU, or PETG the wiki recommends a partially open door to reduce heat creep ([door sensor](https://wiki.bambulab.com/en/x1/manual/door-sensor)).
 - [ ] You will not touch the hotend or heatbed. They get hot enough to burn; the clog wiki requires heat-insulation gloves if you must work near a heated nozzle.
-- [ ] Ask Ryan before joining a shop network. Do not add the printer to a new Wi-Fi network without approval.
 
 ??? info "Bambu Studio prep"
 
